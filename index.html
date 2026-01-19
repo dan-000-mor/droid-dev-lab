@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Android App Development Services - DroidDevLab</title>
+<meta name="description" content="Build secure, high-performance native Android apps with our expert team. We use Kotlin & Java to deliver scalable mobile solutions for startups and enterprises. Get a free estimate today.">
+<link rel="canonical" href="https://droid-dev-lab.com/" />
+
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "DroidDevLab",
+    "url": "https://droid-dev-lab.com/",
+    "logo": "https://droid-dev-lab.com/favicon.ico",
+    "description": "Specialized agency for native Android application development using Kotlin and Jetpack Compose.",
+    "email": "hello@droid-dev-lab.com",
+    "areaServed": "Worldwide"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "Android App Development",
+    "provider": {
+      "@type": "Organization",
+      "name": "DroidDevLab",
+      "url": "https://droid-dev-lab.com/"
+    },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Mobile Development Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Custom Android App Development"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Kotlin Migration Services"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Android UI/UX Design"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Enterprise Mobile Solutions"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Why do you prefer Kotlin over Java for Android development?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Kotlin is the official language recommended by Google. It is safer (avoids NullPointerExceptions), more concise, and fully interoperable with Java, ensuring faster development and fewer bugs."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How long does it take to build a custom Android app?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A basic MVP usually takes 2-3 months. A complex enterprise application might take 4-6+ months. We provide a detailed timeline after the discovery phase."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you help with Google Play publication?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, we handle the entire submission process, ensuring your app meets all Google Play Guidelines, privacy policies, and technical requirements."
+        }
+      }
+    ]
+  }
+]
+</script>
+
+
+<meta property="og:title" content="Android App Development Services - DroidDevLab" />
+<meta property="og:description" content="We build secure native Android apps using Kotlin. Get a free estimate for your project." />
+<meta property="og:image" content="https://droid-dev-lab.com/android-app-development-services.jpeg" />
+<meta property="og:url" content="https://droid-dev-lab.com/" />
+<meta property="og:type" content="website" />
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              android: '#3DDC84',
+              deepBlue: '#073042',
+              darkText: '#202124',
+              lightBg: '#F5F7FA',
+            },
+            fontFamily: {
+              sans: ['Roboto', 'sans-serif'],
+              heading: ['Montserrat', 'sans-serif'],
+            },
+          }
+        }
+      }
+    </script>
+
+
+</head>
+  <body class="bg-white text-darkText font-sans antialiased selection:bg-android selection:text-white">
+    
+    <!-- Header -->
+    <header class="fixed w-full z-50 bg-white/95 backdrop-blur-md border-b border-gray-100 shadow-sm transition-all duration-300">
+        <div class="container mx-auto px-4 md:px-8 h-20 flex items-center justify-between">
+            <!-- Logo -->
+            <span class="flex items-center space-x-2">
+                <div class="bg-android p-1.5 rounded-lg">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-white"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"/><path d="M12 18h.01"/></svg>
+                </div>
+                <span class="font-heading font-bold text-xl text-deepBlue tracking-tight">DroidDevLab</span>
+            </span>
+
+            <!-- Desktop Menu -->
+            <nav class="hidden md:flex items-center space-x-8">
+                <a href="#services" class="text-darkText hover:text-android transition-colors font-medium">Services</a>
+                <a href="#technologies" class="text-darkText hover:text-android transition-colors font-medium">Technologies</a>
+                <a href="#process" class="text-darkText hover:text-android transition-colors font-medium">Process</a>
+                <a href="blog/" class="text-darkText hover:text-android transition-colors font-medium">Blog</a>
+            </nav>
+
+            <!-- CTA -->
+            <div class="hidden md:block">
+                <a href="#contact" class="bg-deepBlue hover:bg-slate-800 text-white px-6 py-2.5 rounded-lg font-medium transition-all shadow-lg hover:shadow-xl inline-block">
+                    Get an Estimate
+                </a>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-btn" class="md:hidden p-2 text-darkText">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+            </button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100 absolute w-full left-0 top-20 shadow-lg p-4 flex flex-col space-y-4">
+            <a href="#services" class="text-left py-2 font-medium">Services</a>
+            <a href="#technologies" class="text-left py-2 font-medium">Technologies</a>
+            <a href="#process" class="text-left py-2 font-medium">Process</a>
+            <a href="blog/" class="text-left py-2 font-medium">Blog</a>
+            <a href="#contact" class="bg-android text-white py-3 rounded-lg font-bold text-center mt-2">Get an Estimate</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden bg-lightBg">
+        <div class="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-bl from-gray-200/50 to-transparent skew-x-12 transform translate-x-32 z-0 pointer-events-none"></div>
+        <div class="container mx-auto px-4 md:px-8 relative z-10">
+            <div class="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
+                <div class="lg:w-1/2 text-center lg:text-left">
+                    <h1 class="font-heading font-bold text-4xl sm:text-5xl lg:text-6xl text-darkText leading-tight mb-6">
+                        Enterprise-Grade <span class="text-android">Android App</span> Development Services
+                    </h1>
+                    <p class="text-lg text-gray-600 mb-10 max-w-xl mx-auto lg:mx-0">
+                        Transform your business ideas into powerful, user-centric mobile applications. We build secure and scalable native Android solutions that dominate the Google Play Store using Kotlin and Jetpack Compose.
+                    </p>
+                    <a href="#contact" class="inline-block bg-android hover:bg-emerald-500 text-white font-bold text-lg px-10 py-4 rounded-xl shadow-lg hover:shadow-2xl transition-all transform hover:-translate-y-1">
+                        Book a Free Consultation
+                    </a>
+                    <div class="mt-10 flex flex-wrap justify-center lg:justify-start gap-4 sm:gap-8">
+                        <div class="flex items-center space-x-2 text-sm font-medium text-gray-700">
+                            <svg class="w-5 h-5 text-android" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            <span>100% Native Code</span>
+                        </div>
+                        <div class="flex items-center space-x-2 text-sm font-medium text-gray-700">
+                            <svg class="w-5 h-5 text-android" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            <span>5+ Years Experience</span>
+                        </div>
+                        <div class="flex items-center space-x-2 text-sm font-medium text-gray-700">
+                            <svg class="w-5 h-5 text-android" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            <span>Post-Release Support</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/2 relative flex justify-center">
+                    <div class="relative w-[300px] h-[600px] bg-slate-900 rounded-[3rem] border-8 border-slate-800 shadow-2xl overflow-hidden ring-1 ring-slate-900/50">
+                        <div class="absolute top-0 left-1/2 transform -translate-x-1/2 w-40 h-6 bg-slate-800 rounded-b-xl z-20"></div>
+                        <img src="https://droid-dev-lab.com/android-app-development-services.jpeg" alt="App Interface" class="w-full h-full object-cover opacity-90" />
+                        <div class="absolute bottom-10 left-4 right-4 bg-white/10 backdrop-blur-lg p-4 rounded-2xl border border-white/20 text-white z-10 shadow-lg">
+                            <div class="flex items-center space-x-4">
+                                <div class="w-10 h-10 bg-android rounded-full flex items-center justify-center font-bold text-slate-900">KT</div>
+                                <div>
+                                    <div class="text-sm font-bold">Optimized for Speed</div>
+                                    <div class="text-xs text-gray-300">Native Kotlin Performance</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="absolute -z-10 top-10 right-10 w-64 h-64 bg-android/20 rounded-full blur-3xl"></div>
+                    <div class="absolute -z-10 bottom-10 left-10 w-64 h-64 bg-deepBlue/10 rounded-full blur-3xl"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Intro & Stats -->
+    <section id="process" class="py-20 bg-white">
+        <div class="container mx-auto px-4 md:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="font-heading font-bold text-3xl md:text-4xl mb-6 text-deepBlue">Why Choose Native Android Development?</h2>
+                <p class="text-gray-600 text-lg">
+                    With over 70% of the global market share, Android is the go-to platform for reaching a massive audience. At DroidDevLab, we don't just write code; we engineer mobile experiences. Native development allows us to utilize the full potential of the device hardware.
+                </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="p-8 rounded-2xl bg-lightBg hover:shadow-lg transition-shadow border border-gray-100">
+                    <div class="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                    </div>
+                    <h3 class="font-heading font-bold text-xl mb-3">High Performance</h3>
+                    <p class="text-gray-600">Apps run directly on the device with 60 FPS speed and instant response.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="p-8 rounded-2xl bg-lightBg hover:shadow-lg transition-shadow border border-gray-100">
+                    <div class="w-14 h-14 bg-emerald-100 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-android" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"></path></svg>
+                    </div>
+                    <h3 class="font-heading font-bold text-xl mb-3">Hardware Access</h3>
+                    <p class="text-gray-600">Seamless integration with Camera, GPS, Bluetooth, NFC, and sensors.</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="p-8 rounded-2xl bg-lightBg hover:shadow-lg transition-shadow border border-gray-100">
+                    <div class="w-14 h-14 bg-purple-100 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+                    </div>
+                    <h3 class="font-heading font-bold text-xl mb-3">Enhanced Security</h3>
+                    <p class="text-gray-600">Built-in Android security features and custom encryption for enterprise data.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="py-20 bg-lightBg">
+        <div class="container mx-auto px-4 md:px-8">
+            <h2 class="font-heading font-bold text-3xl md:text-4xl mb-12 text-center text-deepBlue">Our Android Development Expertise</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:border-android transition-colors">
+                    <h3 class="font-heading font-bold text-2xl mb-4">Custom Android App Development</h3>
+                    <p class="text-gray-600 leading-relaxed">Full-cycle development from business analysis and prototyping to deployment. We create tailored solutions for FinTech, Healthcare, E-commerce, and Logistics.</p>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:border-android transition-colors">
+                    <h3 class="font-heading font-bold text-2xl mb-4">UI/UX Design for Mobile</h3>
+                    <p class="text-gray-600 leading-relaxed">Creating intuitive and engaging interfaces strictly following Google's Material Design guidelines to ensure the best user retention and experience.</p>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:border-android transition-colors">
+                    <h3 class="font-heading font-bold text-2xl mb-4">App Migration (Java to Kotlin)</h3>
+                    <p class="text-gray-600 leading-relaxed">Modernize your legacy codebase. We migrate old Java applications to modern Kotlin architecture to improve stability, maintainability, and speed.</p>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:border-android transition-colors">
+                    <h3 class="font-heading font-bold text-2xl mb-4">Maintenance & Support</h3>
+                    <p class="text-gray-600 leading-relaxed">We provide ongoing monitoring, bug fixing, library updates, and performance optimization after the release to ensure your app stays relevant.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technologies -->
+    <section id="technologies" class="py-20 bg-white">
+        <div class="container mx-auto px-4 md:px-8">
+            <div class="text-center mb-16">
+                <h2 class="font-heading font-bold text-3xl md:text-4xl mb-4 text-deepBlue">Technologies We Leverage</h2>
+                <p class="text-gray-600 text-lg">We stay ahead of the curve by utilizing modern libraries and frameworks.</p>
+            </div>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <h4 class="font-bold text-lg mb-4 text-deepBlue">Languages</h4>
+                    <ul class="space-y-2 text-gray-600"><li>Kotlin (Primary)</li><li>Java</li></ul>
+                </div>
+                <div class="text-center">
+                    <h4 class="font-bold text-lg mb-4 text-deepBlue">Frameworks</h4>
+                    <ul class="space-y-2 text-gray-600"><li>Android SDK</li><li>Jetpack Compose</li><li>Coroutines</li></ul>
+                </div>
+                <div class="text-center">
+                    <h4 class="font-bold text-lg mb-4 text-deepBlue">Architecture</h4>
+                    <ul class="space-y-2 text-gray-600"><li>MVVM</li><li>Clean Architecture</li></ul>
+                </div>
+                <div class="text-center">
+                    <h4 class="font-bold text-lg mb-4 text-deepBlue">Tools</h4>
+                    <ul class="space-y-2 text-gray-600"><li>Android Studio</li><li>Firebase</li><li>Dagger/Hilt</li><li>Retrofit</li></ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comparison -->
+    <section class="py-20 bg-deepBlue text-white">
+        <div class="container mx-auto px-4 md:px-8">
+            <div class="text-center mb-12">
+                <h2 class="font-heading font-bold text-3xl md:text-4xl mb-4">Native Android vs. Cross-Platform</h2>
+                <p class="text-slate-300 max-w-2xl mx-auto">Choosing the right approach is critical. Here is why we recommend Native Android (Kotlin) for serious business:</p>
+            </div>
+            <div class="overflow-x-auto">
+                <table class="w-full text-left border-collapse min-w-[600px]">
+                    <thead>
+                        <tr>
+                            <th class="p-4 border-b border-slate-600 font-bold text-lg text-android">Feature</th>
+                            <th class="p-4 border-b border-slate-600 font-bold text-lg text-white bg-slate-800/50 rounded-t-lg">Native Android (Kotlin)</th>
+                            <th class="p-4 border-b border-slate-600 font-bold text-lg text-slate-400">Cross-Platform (Flutter/React)</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-slate-200">
+                        <tr>
+                            <td class="p-4 border-b border-slate-700 font-medium">Performance</td>
+                            <td class="p-4 border-b border-slate-700 bg-slate-800/30 font-semibold text-white">Highest possible (Direct hardware access)</td>
+                            <td class="p-4 border-b border-slate-700 text-slate-400">Good, but can lag on complex tasks</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 border-b border-slate-700 font-medium">UX/UI</td>
+                            <td class="p-4 border-b border-slate-700 bg-slate-800/30 font-semibold text-white">100% Native feel (Material Design)</td>
+                            <td class="p-4 border-b border-slate-700 text-slate-400">Mimics native, occasional glitches</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 border-b border-slate-700 font-medium">Device Access</td>
+                            <td class="p-4 border-b border-slate-700 bg-slate-800/30 font-semibold text-white">Full & Immediate API access</td>
+                            <td class="p-4 border-b border-slate-700 text-slate-400">Dependent on 3rd party plugins</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 font-medium">Scalability</td>
+                            <td class="p-4 bg-slate-800/30 font-semibold text-white rounded-b-lg">Unlimited (Best for Banking/IoT)</td>
+                            <td class="p-4 text-slate-400">Limited for complex logic</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4 md:px-8">
+            <h2 class="font-heading font-bold text-3xl md:text-4xl mb-12 text-center text-deepBlue">What Our Clients Say</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-lightBg p-8 rounded-2xl relative">
+                    <div class="text-4xl text-android font-serif absolute top-4 left-6">"</div>
+                    <p class="text-gray-700 italic relative z-10 mb-6 mt-4">DroidDevLab migrated our legacy banking app from Java to Kotlin in record time. The performance boost is incredible — our user retention grew by 15%.</p>
+                    <div class="mt-auto">
+                        <p class="font-bold text-deepBlue">Mark D.</p>
+                        <p class="text-sm text-gray-500">CTO at FinTechStart</p>
+                    </div>
+                </div>
+                <div class="bg-lightBg p-8 rounded-2xl relative">
+                    <div class="text-4xl text-android font-serif absolute top-4 left-6">"</div>
+                    <p class="text-gray-700 italic relative z-10 mb-6 mt-4">We needed a native app with complex Bluetooth integration for our medical IoT devices. Their expertise in Android SDK is unmatched. Highly recommended.</p>
+                    <div class="mt-auto">
+                        <p class="font-bold text-deepBlue">Sarah L.</p>
+                        <p class="text-sm text-gray-500">Product Owner</p>
+                    </div>
+                </div>
+                <div class="bg-lightBg p-8 rounded-2xl relative">
+                    <div class="text-4xl text-android font-serif absolute top-4 left-6">"</div>
+                    <p class="text-gray-700 italic relative z-10 mb-6 mt-4">Transparent communication and clean code. They helped us pass the Google Play moderation from the first try without any rejections.</p>
+                    <div class="mt-auto">
+                        <p class="font-bold text-deepBlue">David K.</p>
+                        <p class="text-sm text-gray-500">Founder of RetailGo</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="py-20 bg-lightBg">
+        <div class="container mx-auto px-4 md:px-8 max-w-4xl">
+            <h2 class="font-heading font-bold text-3xl md:text-4xl mb-12 text-center text-deepBlue">Frequently Asked Questions</h2>
+            <div class="space-y-4">
+                <div class="bg-white rounded-lg shadow-sm overflow-hidden">
+                    <details class="group">
+                        <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6">
+                            <span class="text-lg font-heading font-bold text-deepBlue">Why do you prefer Kotlin over Java?</span>
+                            <span class="transition group-open:rotate-180">
+                                <svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                            </span>
+                        </summary>
+                        <div class="text-gray-600 px-6 pb-6"><p>Kotlin is the official language recommended by Google. It is safer (avoids NullPointerExceptions), more concise, and fully interoperable with Java, ensuring faster development and fewer bugs.</p></div>
+                    </details>
+                </div>
+                <div class="bg-white rounded-lg shadow-sm overflow-hidden">
+                    <details class="group">
+                        <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6">
+                            <span class="text-lg font-heading font-bold text-deepBlue">How long does it take to build an MVP?</span>
+                            <span class="transition group-open:rotate-180">
+                                <svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                            </span>
+                        </summary>
+                        <div class="text-gray-600 px-6 pb-6"><p>A basic MVP usually takes 2-3 months. A complex enterprise application might take 4-6+ months. We provide a detailed timeline after the discovery phase.</p></div>
+                    </details>
+                </div>
+                <div class="bg-white rounded-lg shadow-sm overflow-hidden">
+                    <details class="group">
+                        <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6">
+                            <span class="text-lg font-heading font-bold text-deepBlue">Do you help with Google Play publication?</span>
+                            <span class="transition group-open:rotate-180">
+                                <svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                            </span>
+                        </summary>
+                        <div class="text-gray-600 px-6 pb-6"><p>Yes, we handle the entire submission process, ensuring your app meets all Google Play Guidelines and privacy policies.</p></div>
+                    </details>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact" class="py-20 bg-white">
+    <div class="container mx-auto px-4 md:px-8 max-w-2xl">
+        <div class="text-center mb-10">
+            <h2 class="font-heading font-bold text-3xl md:text-4xl mb-4 text-deepBlue">Ready to Build Your App?</h2>
+            <p class="text-gray-600">Leave a request and get a technical consultation + rough estimate within 24 hours.</p>
+        </div>
+        
+        <!-- НАЧАЛО ФОРМЫ -->
+        <!-- Добавлены action="send.php" и method="POST", убран onsubmit -->
+        <form action="send.php" method="POST" class="space-y-6 bg-lightBg p-8 rounded-2xl border border-gray-100 shadow-sm">
+            
+            <!-- Поле Имя -->
+            <div>
+                <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Name</label>
+                <!-- Добавлено name="name" -->
+                <input type="text" id="name" name="name" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-android focus:border-transparent outline-none transition-all" placeholder="John Doe" required />
+            </div>
+
+            <!-- Поле Email -->
+            <div>
+                <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email</label>
+                <!-- Добавлено name="email" -->
+                <input type="email" id="email" name="email" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-android focus:border-transparent outline-none transition-all" placeholder="john@company.com" required />
+            </div>
+
+            <!-- Поле Бюджет -->
+            <div>
+                <label for="budget" class="block text-sm font-medium text-gray-700 mb-1">Budget</label>
+                <!-- Добавлено name="budget" -->
+                <select id="budget" name="budget" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-android focus:border-transparent outline-none transition-all bg-white">
+                    <option value="<10k">&lt; $10k</option>
+                    <option value="10k-50k">$10k - $50k</option>
+                    <option value=">50k">&gt; $50k</option>
+                </select>
+            </div>
+
+            <!-- Поле Детали -->
+            <div>
+                <label for="details" class="block text-sm font-medium text-gray-700 mb-1">Project Details</label>
+                <!-- Добавлено name="message" -->
+                <textarea id="details" name="message" rows="4" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-android focus:border-transparent outline-none transition-all" placeholder="Tell us about your app idea..."></textarea>
+            </div>
+
+            <!-- Кнопка -->
+            <button type="submit" class="w-full bg-deepBlue hover:bg-slate-800 text-white font-bold text-lg py-4 rounded-xl shadow-lg transition-all flex items-center justify-center space-x-2">
+                <span>Request Free Estimate</span>
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+            </button>
+        </form>
+        <!-- КОНЕЦ ФОРМЫ -->
+        
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer class="bg-deepBlue text-white py-12 border-t border-slate-800">
+        <div class="container mx-auto px-4 md:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-6 md:mb-0 text-center md:text-left">
+                    <h3 class="font-heading font-bold text-2xl mb-2">DroidDevLab</h3>
+                    <p class="text-slate-400">Enterprise Native Android Development</p>
+                </div>
+                <div class="flex space-x-6 text-sm text-slate-300">
+                    <a href="#" class="hover:text-android transition-colors">Privacy Policy</a>
+                    <a href="#" class="hover:text-android transition-colors">Terms of Service</a>
+                </div>
+            </div>
+            <div class="mt-8 pt-8 border-t border-slate-800 text-center md:text-left text-slate-500 text-sm flex flex-col md:flex-row justify-between items-center">
+                <p>Android APP Development Company &copy; 2026 DroidDevLab. All rights reserved. </p>
+                <a href="mailto:hello@droid-dev-lab.com" class="mt-4 md:mt-0 text-android hover:underline">hello@droid-dev-lab.com</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Menu Script -->
+    <script>
+      const btn = document.getElementById('mobile-menu-btn');
+      const menu = document.getElementById('mobile-menu');
+      if(btn && menu) {
+        btn.addEventListener('click', () => {
+          menu.classList.toggle('hidden');
+        });
+      }
+    </script>
+
+</body>
+</html>
